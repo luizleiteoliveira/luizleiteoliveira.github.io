@@ -3,8 +3,8 @@ subtitle: Luiz Leite Website
 description: >- # this means to ignore newlines until "baseurl:"
   Luiz Leite website
 
-url: "https://luizleite-hotmart.github.io/" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "/pages" # the subpath of your site, e.g. /blog
+url: "https://luizleiteoliveira.github.io/" # the base hostname & protocol for your site, e.g. https://example.github.io
+baseurl: "/" # the subpath of your site, e.g. /blog
 
 urls:
     - text: About Me
@@ -21,7 +21,7 @@ author: Luiz Leite Oliveira
 author_bio: Hi, my name is Luiz Leite. This is the site where I share some things
 author_email: "xp.luiz@gmail.com"
 author_location: Brazil
-author_website_url: "https://luizleite-hotmart.github.io/pages/#/"
+author_website_url: "https://luizleiteoliveira.github.io/"
 typewrite-text: Hi I'm Luiz and this is my website where I share stuff!!
 
 author_work_experiences:
@@ -58,7 +58,7 @@ author_education_details:
 
 # social links
 twitter_username: luizleite_
-github_username:  luizleite-hotmart
+github_username:  luizleiteoliveira
 linkedin_username: luizleiteoliveira
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
