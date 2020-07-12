@@ -165,7 +165,8 @@ Foram declaradas duas rotas:
  1. `/graphql` &#8594; onde ficam os "endpoints" para acesso dos usuários
  2. `/graphiql/*` &#8594; onde fica a documentação para o que foi registrado.
  
- ## Concluindo
+## Concluindo
+ 
  Resumindo tudo que fizemos não é muito complicado depois da primeira vez, mas falta muita documentação e várias vezes vi 
  lugares mostrando como se fosse meio que mágica, como se fizesse um import e já funciona. Depois de muitos testes funciona
  bem, mas como já disse existem muitas partes que podem ser eliminadas por uma extensão mais completa.
@@ -176,8 +177,9 @@ validação com elas.
 Com isso tudo não acho uma boa opção comparando com o que já tem em Spring Boot, para esse caso ainda não está maduro suficiente,
 mas é claro que não está muito longe e, é fácil de ver como chegariam nesse ponto.
 
- ## _Quer acompanhar um pouco mais?_ 
- Me siga nas plataformas._
+## _Quer acompanhar um pouco mais?_ 
+
+ Me siga nas plataformas.
 
 GitHub: [luizleite-hotmart](https://github.com/luizleite-hotmart)
 
