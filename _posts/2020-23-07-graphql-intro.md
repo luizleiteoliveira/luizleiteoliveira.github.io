@@ -238,7 +238,27 @@ um dado ao mesmo tempo que outro.
 
 ### Parte da Solução 
 
-Em 2012 o [Facebook](https://www.facebook.com/) desenvolveu internamente o [GraphQL](https://graphql.org/) e em 2015 soltou uma release para o público.  
+Em 2012 o [Facebook](https://www.facebook.com/) desenvolveu internamente o [GraphQL](https://graphql.org/) e em 2015 soltou uma release para o público. Essa tecnologia
+rapidamente ganhou o gosto de muita gente, pois era uma maneira de receber apenas os dados que eram interessantes para você. Entenderam um exemplo? Para aquele
+caso do inicio você teria que ouvir praticamente toda a "história" para saber quais eram as tecnologias, agora com GraphQL existe a possibilidade de obter apenas
+aquilo que quer.
+
+No caso um exemplo de chamada para esse exemplo seria algo do tipo:
+
+```json
+usuario(id: 1) {
+  nome,
+  empresa {
+    nome,
+    produto {
+      tecnologia {
+        nome
+      }   
+    } 
+  }
+}
+```
+Essa chamada retornaria todas as tecnologias utilizadas pelos produtos, da empresa vínculados ao usuário de `id = 1` 
 
 
 ## _Quer acompanhar um pouco mais?_ 
