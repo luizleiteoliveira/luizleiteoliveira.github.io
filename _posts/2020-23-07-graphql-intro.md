@@ -223,6 +223,22 @@ Chamadas com seus respectivos retornos:
 }
 ```
 
+### O problema
+
+Imaginem para o nosso caso quantas chamadas um cliente deve fazer para chegar no nome de todas as tecnologias de para o usuário 1:
+
+Seria uma chamada no endpoint de usuário 1, através dessa eu conseguiria o id da empresa, que me retornaria os ids dos produtos (3 ids), com isso seriam mais 3 chamadas
+para cada produto e n chamada para cada tecnologia de cada produto. Nosssssss deu para entender que é chamada pra um caramba.
+
+Tá bom esse é um exemplo exagerado mas quantas plaformas já vimos um front exibindo nome do usuário, postagens que esse usuário fez, e informações de trabalho. Se cada um
+mesmo sendo as vezes 3 chamadas isso multiplicado por quilos de throughput fica bem pesado.
+
+Nesse primeiro caso falamos só de obter os dados (GET) mas imaginem o quão inflexível essas API's podem ser para o nosso cliente que quer fazer um teste A/B salvando
+um dado ao mesmo tempo que outro.
+
+### Parte da Solução 
+
+Em 2012 o [Facebook](https://www.facebook.com/) desenvolveu internamente o [GraphQL](https://graphql.org/) e em 2015 soltou uma release para o público.  
 
 
 ## _Quer acompanhar um pouco mais?_ 
