@@ -258,7 +258,11 @@ usuario(id: 1) {
   }
 }
 ```
-Essa chamada retornaria todas as tecnologias utilizadas pelos produtos, da empresa vínculados ao usuário de `id = 1` 
+Essa chamada retornaria todas as tecnologias utilizadas pelos produtos, da empresa vínculados ao usuário de `id = 1`
+
+### Cuidados ao Utilizar GraphQL
+
+ 
 
 
 ## _Quer acompanhar um pouco mais?_ 
