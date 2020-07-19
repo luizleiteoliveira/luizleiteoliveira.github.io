@@ -28,7 +28,7 @@ mais o que eu to falando.
 
 Tranquilo vamos imaginar que isso tudo fosse separado em micro serviços como seria? Podemos imaginar alguma coisa da seguinte forma:
 
-[![](https://mermaid.ink/img/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG5cdENpZGFkZSA8fC0tIFVzdWFyaW9cblx0Q2lkYWRlIDx8LS0gRW1wcmVzYVxuXHRFbXByZXNhIDx8LS0gVXN1YXJpb1xuICBQcm9kdXRvIDx8LS0gRW1wcmVzYVxuICBUZWNub2xvZ2lhIDx8LS0gUHJvZHV0b1xuICBIb2JiaWUgPHwtLSBVc3VhcmlvXG5cblx0Y2xhc3MgVXN1YXJpb3tcblx0XHQrU3RyaW5nIG5vbWVDb21wbGV0b1xuXHRcdCtpbnQgYW5vTmFzY2ltZW50b1xuICAgICtTdHJpbmcgZXN0YWRvQ2l2aWxcbiAgICAraW50IG51bWVyb0RlSXJtYW9zICBcbiAgICArQ2lkYWRlIGNpZGFkZU5hc2NpbWVudG8gIFxuICAgICtFbXByZXNhIGVtcHJlc2FcbiAgICArTGlzdDxIb2JiaWU-IGhvYmJpZXNcblx0fVxuXG4gIGNsYXNzIENpZGFkZSB7XG4gICAgK1N0cmluZyBub21lXG4gICAgK1N0cmluZyBlc3RhZG9cbiAgICArU3RyaW5nIHBhaXNcbiAgfVxuXG5cdGNsYXNzIEVtcHJlc2F7XG5cdFx0K1N0cmluZyBub21lXG4gICAgK0NpZGFkZSBjaWRhZGVTZWRlXG4gICAgK0xpc3Q8UHJvZHV0bz4gcHJvZHV0b3MgICAgXG5cdH1cbiAgXG4gIGNsYXNzIFRlY25vbG9naWF7XG4gICAgK1N0cmluZyBub21lXG4gICAgK2ludCBhbm9DcmlhY2FvXG4gIH1cblxuICBjbGFzcyBQcm9kdXRvIHtcbiAgICArU3RyaW5nIG5vbWVcbiAgICArTGlzdDxUZWNub2xvZ2lhcz4gdGVjbm9sb2dpYXNcbiAgfVxuXG4gIGNsYXNzIEhvYmJpZSB7XG4gICAgK1N0cmluZyBub21lXG4gICAgK1N0cmluZyBpbmZvcm1hY2FvQWRpY2lvbmFsXG4gIH1cblx0XHRcdFx0XHQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG5cdENpZGFkZSA8fC0tIFVzdWFyaW9cblx0Q2lkYWRlIDx8LS0gRW1wcmVzYVxuXHRFbXByZXNhIDx8LS0gVXN1YXJpb1xuICBQcm9kdXRvIDx8LS0gRW1wcmVzYVxuICBUZWNub2xvZ2lhIDx8LS0gUHJvZHV0b1xuICBIb2JiaWUgPHwtLSBVc3VhcmlvXG5cblx0Y2xhc3MgVXN1YXJpb3tcblx0XHQrU3RyaW5nIG5vbWVDb21wbGV0b1xuXHRcdCtpbnQgYW5vTmFzY2ltZW50b1xuICAgICtTdHJpbmcgZXN0YWRvQ2l2aWxcbiAgICAraW50IG51bWVyb0RlSXJtYW9zICBcbiAgICArQ2lkYWRlIGNpZGFkZU5hc2NpbWVudG8gIFxuICAgICtFbXByZXNhIGVtcHJlc2FcbiAgICArTGlzdDxIb2JiaWU-IGhvYmJpZXNcblx0fVxuXG4gIGNsYXNzIENpZGFkZSB7XG4gICAgK1N0cmluZyBub21lXG4gICAgK1N0cmluZyBlc3RhZG9cbiAgICArU3RyaW5nIHBhaXNcbiAgfVxuXG5cdGNsYXNzIEVtcHJlc2F7XG5cdFx0K1N0cmluZyBub21lXG4gICAgK0NpZGFkZSBjaWRhZGVTZWRlXG4gICAgK0xpc3Q8UHJvZHV0bz4gcHJvZHV0b3MgICAgXG5cdH1cbiAgXG4gIGNsYXNzIFRlY25vbG9naWF7XG4gICAgK1N0cmluZyBub21lXG4gICAgK2ludCBhbm9DcmlhY2FvXG4gIH1cblxuICBjbGFzcyBQcm9kdXRvIHtcbiAgICArU3RyaW5nIG5vbWVcbiAgICArTGlzdDxUZWNub2xvZ2lhcz4gdGVjbm9sb2dpYXNcbiAgfVxuXG4gIGNsYXNzIEhvYmJpZSB7XG4gICAgK1N0cmluZyBub21lXG4gICAgK1N0cmluZyBpbmZvcm1hY2FvQWRpY2lvbmFsXG4gIH1cblx0XHRcdFx0XHQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
+[![](https://mermaid.ink/img/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG5cdENpZGFkZSA8fC0tIFVzdWFyaW9cblx0Q2lkYWRlIDx8LS0gRW1wcmVzYVxuXHRFbXByZXNhIDx8LS0gVXN1YXJpb1xuICBQcm9kdXRvIDx8LS0gRW1wcmVzYVxuICBUZWNub2xvZ2lhIDx8LS0gUHJvZHV0b1xuICBIb2JiaWUgPHwtLSBVc3VhcmlvXG5cblx0Y2xhc3MgVXN1YXJpb3tcbiAgICArTG9uZyBpZFxuXHRcdCtTdHJpbmcgbm9tZUNvbXBsZXRvXG5cdFx0K2ludCBhbm9OYXNjaW1lbnRvXG4gICAgK1N0cmluZyBlc3RhZG9DaXZpbFxuICAgICtpbnQgbnVtZXJvRGVJcm1hb3MgIFxuICAgICtDaWRhZGUgY2lkYWRlTmFzY2ltZW50byAgXG4gICAgK0VtcHJlc2EgZW1wcmVzYVxuICAgICtMaXN0PEhvYmJpZT4gaG9iYmllc1xuXHR9XG5cbiAgY2xhc3MgQ2lkYWRlIHtcbiAgICArTG9uZyBpZFxuICAgICtTdHJpbmcgbm9tZVxuICAgICtTdHJpbmcgZXN0YWRvXG4gICAgK1N0cmluZyBwYWlzXG4gIH1cblxuXHRjbGFzcyBFbXByZXNhe1xuICAgICtMb25nIGlkXG5cdFx0K1N0cmluZyBub21lXG4gICAgK0NpZGFkZSBjaWRhZGVTZWRlXG4gICAgK0xpc3Q8UHJvZHV0bz4gcHJvZHV0b3MgICAgXG5cdH1cbiAgXG4gIGNsYXNzIFRlY25vbG9naWF7XG4gICAgK0xvbmcgaWRcbiAgICArU3RyaW5nIG5vbWVcbiAgICAraW50IGFub0NyaWFjYW9cbiAgfVxuXG4gIGNsYXNzIFByb2R1dG8ge1xuICAgICtMb25nIGlkXG4gICAgK1N0cmluZyBub21lXG4gICAgK0xpc3Q8VGVjbm9sb2dpYXM-IHRlY25vbG9naWFzXG4gIH1cblxuICBjbGFzcyBIb2JiaWUge1xuICAgICtMb25nIGlkXG4gICAgK1N0cmluZyBub21lXG4gICAgK1N0cmluZyBpbmZvcm1hY2FvQWRpY2lvbmFsXG4gIH1cblx0XHRcdFx0XHQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)](https://mermaid-js.github.io/mermaid-live-editor/#/edit/eyJjb2RlIjoiY2xhc3NEaWFncmFtXG5cdENpZGFkZSA8fC0tIFVzdWFyaW9cblx0Q2lkYWRlIDx8LS0gRW1wcmVzYVxuXHRFbXByZXNhIDx8LS0gVXN1YXJpb1xuICBQcm9kdXRvIDx8LS0gRW1wcmVzYVxuICBUZWNub2xvZ2lhIDx8LS0gUHJvZHV0b1xuICBIb2JiaWUgPHwtLSBVc3VhcmlvXG5cblx0Y2xhc3MgVXN1YXJpb3tcbiAgICArTG9uZyBpZFxuXHRcdCtTdHJpbmcgbm9tZUNvbXBsZXRvXG5cdFx0K2ludCBhbm9OYXNjaW1lbnRvXG4gICAgK1N0cmluZyBlc3RhZG9DaXZpbFxuICAgICtpbnQgbnVtZXJvRGVJcm1hb3MgIFxuICAgICtDaWRhZGUgY2lkYWRlTmFzY2ltZW50byAgXG4gICAgK0VtcHJlc2EgZW1wcmVzYVxuICAgICtMaXN0PEhvYmJpZT4gaG9iYmllc1xuXHR9XG5cbiAgY2xhc3MgQ2lkYWRlIHtcbiAgICArTG9uZyBpZFxuICAgICtTdHJpbmcgbm9tZVxuICAgICtTdHJpbmcgZXN0YWRvXG4gICAgK1N0cmluZyBwYWlzXG4gIH1cblxuXHRjbGFzcyBFbXByZXNhe1xuICAgICtMb25nIGlkXG5cdFx0K1N0cmluZyBub21lXG4gICAgK0NpZGFkZSBjaWRhZGVTZWRlXG4gICAgK0xpc3Q8UHJvZHV0bz4gcHJvZHV0b3MgICAgXG5cdH1cbiAgXG4gIGNsYXNzIFRlY25vbG9naWF7XG4gICAgK0xvbmcgaWRcbiAgICArU3RyaW5nIG5vbWVcbiAgICAraW50IGFub0NyaWFjYW9cbiAgfVxuXG4gIGNsYXNzIFByb2R1dG8ge1xuICAgICtMb25nIGlkXG4gICAgK1N0cmluZyBub21lXG4gICAgK0xpc3Q8VGVjbm9sb2dpYXM-IHRlY25vbG9naWFzXG4gIH1cblxuICBjbGFzcyBIb2JiaWUge1xuICAgICtMb25nIGlkXG4gICAgK1N0cmluZyBub21lXG4gICAgK1N0cmluZyBpbmZvcm1hY2FvQWRpY2lvbmFsXG4gIH1cblx0XHRcdFx0XHQiLCJtZXJtYWlkIjp7InRoZW1lIjoiZGVmYXVsdCJ9LCJ1cGRhdGVFZGl0b3IiOmZhbHNlfQ)
 
 ```mermaid diagram
 classDiagram
@@ -40,6 +40,7 @@ classDiagram
   Hobbie <|-- Usuario
 
 	class Usuario{
+    +Long id
 		+String nomeCompleto
 		+int anoNascimento
     +String estadoCivil
@@ -50,36 +51,178 @@ classDiagram
 	}
 
   class Cidade {
+    +Long id
     +String nome
     +String estado
     +String pais
   }
 
 	class Empresa{
+    +Long id
 		+String nome
     +Cidade cidadeSede
     +List<Produto> produtos    
 	}
   
   class Tecnologia{
+    +Long id
     +String nome
     +int anoCriacao
   }
 
   class Produto {
+    +Long id
     +String nome
     +List<Tecnologias> tecnologias
   }
 
   class Hobbie {
+    +Long id
     +String nome
     +String informacaoAdicional
   }
-										
+														
 ```
 
-Agora vamos imaginar que cada quadrado desse por mais absurdo que seja, virou um micro serviço seriam 6 no total, com a ajuda do incrivel [Beeceptor](https://beeceptor.com/)
-eu criei estes endpoints mockados para responder sobre exatamente o primeiro paragrafo 
+Agora vamos imaginar que cada quadrado desse por mais absurdo que seja, virou um micro serviço seriam 6 no total, com a ajuda do incrível [Beeceptor](https://beeceptor.com/)
+eu criei estes endpoints mockados para responder sobre exatamente o primeiro paragrafo.
+
+#### Usuário: 
+Chamada `https://luizgraphqluser.free.beeceptor.com/users/1` que tem como retorno:
+
+```json
+{
+  "id": "1",
+  "nomeCompleto": "luiz leite oliveira",
+  "anoNascimento": 1991,
+  "estadoCivil": "casado",
+  "numeroDeIrmaos": 2,
+  "cidadeNascimento": 1,
+  "empresa": 1,
+  "hobbies" : [1,2,3]
+}
+``` 
+
+#### Hobbie
+Chamadas com seus respectivos retornos:
+
+`https://luizgraphqluser.free.beeceptor.com/hobbies/1`
+
+```json
+{
+  "id": "1",
+  "nome": "Counter-Strike",
+  "informacaoAdicional": "Prata 1"
+}
+```
+
+`https://luizgraphqluser.free.beeceptor.com/hobbies/2`
+
+```json
+{
+  "id": "2",
+  "nome": "Fortnite",
+  "informacaoAdicional": "8 guarda chuvas"
+}
+```
+
+`https://luizgraphqluser.free.beeceptor.com/hobbies/3`
+
+```json
+{
+  "id": "3",
+  "nome": "Natação",
+  "informacaoAdicional": "nada de mais"
+}
+```
+
+#### Empresas
+
+`https://luizgraphqluser.free.beeceptor.com/companies/1`
+
+```json
+{
+  "id": "1",
+  "nome": "Hotmart",
+  "cidadeSede": 1,
+  "produtos": [1,2,3]
+}
+```
+
+#### Produtos
+
+`https://luizgraphqluser.free.beeceptor.com/products/1`
+
+```json
+{
+  "id": "1",
+  "nome": "plataforma de afiliados",
+  "tecnologias": [1,2,3]
+}
+```
+
+
+`https://luizgraphqluser.free.beeceptor.com/products/2`
+
+```json
+{
+  "id": "2",
+  "nome": "area de membros",
+  "tecnologias": [1,3]
+}
+```
+
+`https://luizgraphqluser.free.beeceptor.com/products/3`
+
+```json
+{
+  "id": "3",
+  "nome": "app de entrega de conteudo",
+  "tecnologias": [1,3, 4]
+}
+```
+
+#### Tecnologias
+
+`https://luizgraphqluser.free.beeceptor.com/technologies/1`
+
+```json
+{
+  "id": "1",
+  "nome": "Java",
+  "anoCriacao": 10  
+}
+```
+
+`https://luizgraphqluser.free.beeceptor.com/technologies/2`
+
+```json
+{
+  "id": "2",
+  "nome": "Kotlin",
+  "anoCriacao": 2013  
+}
+```
+
+`https://luizgraphqluser.free.beeceptor.com/technologies/3`
+
+```json
+{
+  "id": "3",
+  "nome": "Javascript",
+  "anoCriacao": 2002  
+}
+```
+`https://luizgraphqluser.free.beeceptor.com/technologies/4`
+
+```json
+{
+  "id": "4",
+  "nome": "Swift",
+  "anoCriacao": 2005  
+}
+```
+
 
 
 ## _Quer acompanhar um pouco mais?_ 
