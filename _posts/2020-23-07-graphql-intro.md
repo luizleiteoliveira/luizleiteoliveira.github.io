@@ -12,7 +12,7 @@ thumbnail: /assets/img/posts/graph-ql-spec.svg
 
 ## Introdução 
 Primeira mente deixa eu me apresentar. 
-Muito prazer eu sou o **_Luiz Leite Oliveira_**, nasci em **_1991_** na cidade de **_Belo Horizonte_**, meu estado civil **_casado_**, tenho **_2 irmãos_**, atualmente trabalho como **_desenvolvedor_** em 
+Muito prazer eu sou o **_Luiz Leite Oliveira_**, nasci em **_1991_** na cidade de **_Belo Horizonte_** capital de **_Minas Gerais_**, meu estado civil é **_casado_**, tenho **_2 irmãos_**, atualmente trabalho como **_desenvolvedor_** em 
 uma empresa de **_Belo Horizonte_** chamada **_Hotmart_**, que tem um site hospedado em [Hotmart](https://hotmart.com). A Hotmart tem vários produtos como uma 
 **_plataforma de afiliados_** construída por **_micro serviços_** com **_back-end_**, usando tecnologias como **_Kotlin_** e **_Java_** e **_front-end_** em **_Javascript_**, uma **_área de membros_**
 com as mesmas tecnologias, e um aplicativo de entrega de conteúdo que tem **_back-end_** em **_Java_** e o app em **_Kotlin_** e **_Swift_**. Se você chegou
@@ -84,11 +84,18 @@ classDiagram
 														
 ```
 
+
+
 Agora vamos imaginar que cada quadrado desse por mais absurdo que seja, virou um micro serviço seriam 6 no total, com a ajuda do incrível [Beeceptor](https://beeceptor.com/)
 eu criei estes endpoints mockados para responder sobre exatamente o primeiro paragrafo.
 
+
+
 #### Usuário: 
+
+
 Chamada `https://luizgraphqluser.free.beeceptor.com/users/1` que tem como retorno:
+
 
 ```json
 {
