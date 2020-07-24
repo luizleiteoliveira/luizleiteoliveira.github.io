@@ -269,6 +269,24 @@ Essa chamada retornaria todas as tecnologias utilizadas pelos produtos, da empre
 
 ### Cuidados ao Utilizar GraphQL
 
+#### Tratamento de erros
+
+Como GraphQL não segue o padrão Restfull o client pode receber um erro interno 200. Ainda não há um acordo 
+comum de como tratar isso mas boa parte diz que deveriamos ter uma parte no schema para isso.
+
+
+#### Não é uma bala de prata
+
+As chamadas internas do GraphQL devem ser tratadas com resolvers não funcionam como mágica,
+se um dado não for solicitado na chamada podemos não busca-lo e isso vai ajudar muito na sua consulta.
+
+
+### O projeto 
+
+Isso tudo que está descrito aqui pode ser encontrado no seguinte [repositório](https://github.com/luizleite-hotmart/life-application)
+além disso eu tenho um outro [post](https://luizleiteoliveira.github.io///java/2020/07/02/quarkus-graphql/#/) explicando melhor a parte do Quarkus 
+e GraphQL sendo aplicado nele.
+
  
 
 
