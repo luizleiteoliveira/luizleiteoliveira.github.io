@@ -1,8 +1,8 @@
 ---
 name: Luiz Leite
-username: luizleiteoliveira
+username: luizleite
 bio: "Oi Eu sou o Luiz, apaixonado por desenvolvimento maior parte dentro da JVM."
-site: http://luizleiteoliveira.github.io
+site: https://luizleiteoliveira.github.io
 avatar: luizleite.png
 email: xp.luiz@gmail.com
 social:
