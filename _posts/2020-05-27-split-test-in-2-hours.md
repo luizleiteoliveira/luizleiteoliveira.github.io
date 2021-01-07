@@ -2,7 +2,7 @@
 layout: post
 title:  "Creating A/B (Split) test API in 2 hours"
 summary: Creating A/B (Split) test API in 2 hours
-author: Luiz Leite
+author: luizleite
 date: '2020-05-27 14:35:23 +0530'
 category: spring-boot
 thumbnail: /assets/img/posts/spring-logo.svg

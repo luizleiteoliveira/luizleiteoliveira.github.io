@@ -2,7 +2,7 @@
 layout: post
 title:  "Rodando postgress no docker"
 summary: Rodando postgress no docker
-author: Luiz Leite
+author: luizleite
 date: '2020-08-22 14:35:23 +0530'
 category: docker
 thumbnail: /assets/img/posts/spring-logo.svg

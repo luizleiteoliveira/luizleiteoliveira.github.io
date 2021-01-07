@@ -2,7 +2,7 @@
 layout: post
 title:  "Grapqhl no Quarkus"
 summary: Como usar graphQL no quarkus
-author: Luiz Leite
+author: luizleite
 date: '2020-07-02 14:35:23 +0530'
 category: Java
 thumbnail: /assets/img/posts/code.jpg

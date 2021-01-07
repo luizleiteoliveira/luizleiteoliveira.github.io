@@ -2,7 +2,7 @@
 layout: post
 title:  "GraphQL na vida real"
 summary: Breve introdução sobre o que é GrapqhQL e por que esse padrão vem ganhando espaço
-author: Luiz Leite
+author: luizleite
 date: '2020-07-02 14:35:23 +0530'
 category: Java
 thumbnail: /assets/img/posts/graph-ql-spec.svg
