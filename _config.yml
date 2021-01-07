@@ -7,14 +7,12 @@ url: "https://luizleiteoliveira.github.io/" # the base hostname & protocol for y
 baseurl: "/" # the subpath of your site, e.g. /blog
 
 urls:
-    - text: About Me
-      url: /about
-    - text: Blog
-      url: /blog
-#    - text: Contact Me
-#      url : /contact
+  - text: About Me
+    url: /about
+  - text: Blog
+    url: /blog
 
-# Edit these details
+# Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.jpeg
 author: Luiz Leite Oliveira
@@ -24,26 +22,29 @@ author_location: Brazil
 author_website_url: "https://luizleiteoliveira.github.io/"
 typewrite-text: Hi I'm Luiz and this is my website where I share stuff!!
 
+# Experiences
 author_work_experiences:
-            - company_name: Hotmart
-              company_logo: hotmart.png
-              company_url: https://hotmart.com
-              designation: Team Leader/ Developer
-              description: It's too much time to add in one line
-              visibility: true
-            - company_name: Eteg
-              company_logo: eteg.png
-              company_url: https://www.eteg.com.br/
-              designation: Developer
-              description: Over the years in Eteg I worked with a lot of different system the main projects are from FHEMIG which I work on the payment system of them
-              visibility: true
+      - company_name: Hotmart
+        company_logo: hotmart.png
+        company_url: https://hotmart.com
+        designation: Team Leader/ Developer
+        description: It's too much time to add in one line
+        visibility: true
+      - company_name: Eteg
+        company_logo: eteg.png
+        company_url: https://www.eteg.com.br/
+        designation: Developer
+        description: Over the years in Eteg I worked with a lot of different system the main projects are from FHEMIG which I work on the payment system of them
+        visibility: true
 
+# Education
 author_education_details:
-              - college_logo: dcc_logo_2.jpg
-                college_name: DCC - UFMG
-                college_url: https://www.dcc.ufmg.br/dcc/
-                visibility: true
+      - college_logo: dcc_logo_2.jpg
+        college_name: DCC - UFMG
+        college_url: https://www.dcc.ufmg.br/dcc/
+        visibility: true
 
+# Projects
 #author_project_details:
 #              - project_thumbnail: gamershub.png
 #                project_title: Gamers Hub
@@ -85,14 +86,6 @@ show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
 
-# algolia search
-algolia:
-  application_id: ORDJ2KKMXS
-  index_name: blog_posts # You can replace that with whatever name you want
-  files_to_exclude: []
-  nodes_to_index: 'article'
-  search_only_api_key: bcb74f96deb1754595614009c8adf8d0
-
 # pagination of posts
 paginate: 4
 per_page: 4
@@ -114,26 +107,33 @@ paginate_path: "/blog/page/:num/"
 #   permalinks:
 #     category: '/category/:name/'
 
-# Shop
-collections:
- - products
-
 # Gallery
+collections:
+  products:
+    output: true
+  authors:
+    output: true
+
 defaults:
   -
     scope:
       path: "gallery"
     values:
       permalink: /:path/:basename:output_ext
+  -
+    scope:
+      path: ""
+      type: authors
+    values:
+      layout: author
+      permalink: /blog/authors/:slug
 
 # Build settings
 plugins:
-  - jekyll-feed
   - jekyll-paginate
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-algolia
   - jekyll-menus
 
 
