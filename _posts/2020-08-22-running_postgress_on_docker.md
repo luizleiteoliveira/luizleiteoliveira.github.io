@@ -5,7 +5,7 @@ summary: Rodando postgress no docker
 author: luizleite
 date: '2020-08-22 14:35:23 +0530'
 category: docker
-thumbnail: /assets/img/posts/spring-logo.svg
+thumbnail: /assets/img/posts/Moby-logo.png
 ---
 
 ## O que é PostgreSQL
@@ -13,9 +13,7 @@ thumbnail: /assets/img/posts/spring-logo.svg
 PostgreSQL  é um banco de dados bem comum e o melhor de tudo é que ele é opensource, com isso, você pode 
 utiliza-lo em serviços sem preocupar com gastos adicionais por causa de licensa.
  
-## What we used
- 
- - PostgreSQL
+## O que temos precisamos
  - Docker 
   
 ## Comandos necessários
@@ -26,7 +24,8 @@ Para pegar a imagem utilizaremos o seguinte comando:
 
 
 ## Conclusion
- 
+ Sempre que tiver oportunidade, ao invés de sair criando uma infra complexa, docker é a melhor opção para fazer um teste
+rápido e/ou prova de conceito e assim chegar no resultado da maneira mais rápida possível.
 
 ## _Want to follow me?_
  
