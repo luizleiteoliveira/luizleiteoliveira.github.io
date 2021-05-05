@@ -4,7 +4,7 @@ title:  "Como fazer testes unitários em controllers de um app Spring Boot"
 summary: Como fazer testes unitários em controllers de um app Spring Boot
 author: luizleite
 date: '2020-02-13 14:35:23 +0530'
-category: spring-boot
+category: ['spring-boot']
 thumbnail: /assets/img/posts/spring-logo.svg
 ---
 

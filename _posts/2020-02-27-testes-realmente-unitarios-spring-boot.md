@@ -4,7 +4,7 @@ title:  "Testes realmente unitários no Spring Boot"
 summary: Testes realmente unitários no Spring Boot
 author: luizleite
 date: '2020-02-13 14:35:23 +0530'
-category: spring-boot
+category: ['spring-boot']
 thumbnail: /assets/img/posts/spring-logo.svg
 ---
 

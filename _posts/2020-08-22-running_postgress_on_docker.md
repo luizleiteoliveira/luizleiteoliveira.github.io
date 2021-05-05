@@ -4,7 +4,7 @@ title:  "Rodando postgress no docker"
 summary: Rodando postgress no docker
 author: luizleite
 date: '2020-08-22 14:35:23 +0530'
-category: docker
+category: ['docker']
 thumbnail: /assets/img/posts/Moby-logo.png
 ---
 

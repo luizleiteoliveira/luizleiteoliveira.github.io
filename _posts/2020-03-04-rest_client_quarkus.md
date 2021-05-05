@@ -4,7 +4,7 @@ title:  "Como usar Rest Client em Quarkus"
 summary: Neste post você vai aprender como pode ser simples criar um client em Quarkus para utilizar em seus projetos.
 author: luizleite
 date: '2020-03-04 14:35:23 +0530'
-category: Quarkus
+category: [ 'quarkus']
 thumbnail: /assets/img/quarkus_logo.png
 ---
 
