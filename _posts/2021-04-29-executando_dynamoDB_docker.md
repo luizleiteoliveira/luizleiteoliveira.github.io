@@ -4,8 +4,8 @@ title:  "Como Rodar DynamoDB em docker local"
 summary: Neste post vou mostrar como em poucos comandos colocamos para rodar o DynamoDB em um container docker.
 author: luizleite
 date: '2020-04-29 19:00:23 +0530'
-category: ['docker']
-thumbnail: /assets/img/posts/Moby-logo.png
+category: ['docker', 'dynamodb', 'aws']
+thumbnail: /assets/img/posts/aws_logo.png
 ---
 
 ## Mas pra que?

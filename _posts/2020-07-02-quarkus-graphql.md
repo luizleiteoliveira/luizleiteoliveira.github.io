@@ -5,7 +5,7 @@ summary: Como usar graphQL no quarkus
 author: luizleite
 date: '2020-07-02 14:35:23 +0530'
 category: ['java', 'quarkus']
-thumbnail: /assets/img/posts/code.jpg
+thumbnail: /assets/img/quarkus_logo.png
 ---
 
 Tudo que está nesse projeto pode ser encontrado no repositório [GitHub](https://github.com/luizleite-hotmart/quarkus-graphql).
