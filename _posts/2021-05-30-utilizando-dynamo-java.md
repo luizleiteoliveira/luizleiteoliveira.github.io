@@ -64,14 +64,43 @@ Notem que pode ser adicionado o valor `1.11.889` como variável de propriedade p
 
 ## O projeto
 
-Agora o projeto vai ser dividido em 
+Agora o projeto vai ser dividido em _MainClass_ que vai ter os códigos que não tem ligação com o Client do _DynamoDB_. 
+A segunda classe será DynamoClientHelper que possui as chamadas para construir o cliente e executar as ações no Dynamo.
 
+### MainClass
+
+A _MainClass_ pode ser substituído por uma classe sua como um serviço que vai consultar o _DynamoDB_ para tomar decisões.
+Como foi feito nesta classe as chamadas o cliente os parâmetros como _accessKey_ e _secretKey_ foram repassados via argumentos.
+
+Caso queira rodar o projeto sem alterações os parameters devem ficar na seguinte ordem:
+
+`"NOME_DA_TABELA" "ACCESS_KEY" "SECRET_KEY" "DAX_ENDPOINT"`
+
+
+### DynamoClientHelper
+
+O client irá realizar tem os métodos para interagir com o _DynamoDB_, como:
+
+ - **getDaxClient** Recebe a url de endpoint do _Dax_ e devolve um _DynamoClient_ que é utilizado para operações.
+   
+ - **getDynamoClient** Recebe as credenciais da AWS para conectar ao _DynamoDB_ da conta e retorna um client.
+   
+ - **writeData** Recebe a nome da tabela a ser utilizada, um client que foi gerado, e o _JSON_ de data.
+   
+ - **retrieveItem** Recebe a nome da tabela a ser utilizada, um client que foi gerado, e o _ID_ do 'item' a ser retornado.
+   
+ - **queryIndexCount** Recebe a nome da tabela a ser utilizada, um client que foi gerado, o nome do index, e ucode para value na query, retorna quantidade de
+   itens no index.
+
+ - **deleteItem** Recebe a nome da tabela a ser utilizada, um client que foi gerado, e o _ID_ do item a ser deletado.
 
 ## Conclusão
-Além dessas operações existem muitas outras que podem ser executadas através do aws cli.
-O banco que criamos está totalmente operacional e podemos criar uma boa idéia de quanto será usado recurso gasto
-como unidades de leitura para o projeto, com esse dado mais o volume esperado pode-se chegar bem rápido a quando fica
-o custo além de demonstrar que a modelagem pode funcionar ou não.
+Apesar de ser muito simples o client criado, através dele foi possível fazer alguns testes, e verificar o tempo que 
+é gasto pelo _DAX_ quando um item é inserido até que ele apareça na busca via index. Além disto pode ser feita algumas melhorias
+em que é colocado o _DAX_ como client principal e caso falhe chame o via outra opção. Coisa importante é que através desse client
+já é possível fazer o update, utilizando o método writeData utilizando o mesmo _ID_.
+
+Alterando poucas coisas no client já temos um _CRUD_ completo e atender vários requisitos.
 
 ## _Want to follow me?_
  
