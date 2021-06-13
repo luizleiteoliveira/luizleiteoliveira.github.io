@@ -9,6 +9,7 @@ thumbnail: /assets/img/posts/aws_logo.png
 ---
 
 ## Objetivo do projeto
+
 O projeto criado mostra como é simples fazer uma chamada dentro do Java, mesmo sem um framework como Spring Boot ou Quarkus.
 Através dele foi possível verificar com a própria AWS sobre tempo de salvar e recuperar um dado através do [DAX](https://aws.amazon.com/pt/dynamodb/dax/).
 
@@ -31,19 +32,39 @@ Para fazer a configuração é importante adicionar no projeto do Maven as segui
     </dependency>
 ```
 
- - aws-java-sdk-bom
+ - amazon-dax-client
+
 ```xml
-    <dependencies>
-        <dependency>
-            <groupId>com.amazonaws</groupId>
-            <artifactId>aws-java-sdk-bom</artifactId>
-            <version>1.11.889</version>
-            <type>pom</type>
-            <scope>import</scope>
-        </dependency>
-    </dependencies>
+<dependency>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>amazon-dax-client</artifactId>
+    <version>1.0.221844.0</version>
+</dependency>
 ```
 
+
+ - aws-java-sdk-bom 
+
+```xml
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.amazonaws</groupId>
+                <artifactId>aws-java-sdk-bom</artifactId>
+                <version>1.11.889</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+```
+
+
+Notem que pode ser adicionado o valor `1.11.889` como variável de propriedade para evitar a repetição.
+
+## O projeto
+
+Agora o projeto vai ser dividido em 
 
 
 ## Conclusão
