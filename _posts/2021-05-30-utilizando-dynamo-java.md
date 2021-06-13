@@ -3,7 +3,7 @@ layout: post
 title:  "Como utilizar DynamoDB dentro com Java"
 summary: Neste post vai ser mostrado como pode-se ser feito a chamada para inserir dados e medido o tempo para esse registro aparecer após inserção.
 author: luizleite
-date: '2020-04-29 19:00:23 +0530'
+date: '2021-05-30 19:00:23 +0530'
 category: ['dynamodb', 'java']
 thumbnail: /assets/img/posts/aws_logo.png
 ---
