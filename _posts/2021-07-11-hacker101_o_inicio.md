@@ -3,7 +3,7 @@ layout: post
 title: "Hacker101 o início do CTF"
 summary: Nest post vamos começar os primeiros passos recomendados pelo _Hacker One_ para se tornar um hacker e identificar falhas do sistema. 
 author: luizleite
-date: '2021-07-04 19:00:23 +0530'
+date: '2021-07-11 19:00:23 +0530'
 category: ['hacker', 'owasp', 'segurança']
 thumbnail: /assets/img/posts/OWASP.png
 ---
