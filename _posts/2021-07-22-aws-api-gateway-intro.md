@@ -14,7 +14,7 @@ thumbnail: /assets/img/posts/aws_logo.png
 
 ***AWS API Gateway*** é uma feature que existe na *AMAZON* desenhado para criação, monitoramento, e proteção de API's. O serviço funciona como um portão da entrada para qualquer serviço que deseja configurar, ou seja, pode ser utiliza-lo para fazer um filtro para outras features, adicionando o ponto autenticação dentro do API Gateway para tirar essa responsabilidade do seu microsserviço.
 
-![https://d1.awsstatic.com/serverless/New-API-GW-Diagram.c9fc9835d2a9aa00ef90d0ddc4c6402a2536de0d.png](https://d1.awsstatic.com/serverless/New-API-GW-Diagram.c9fc9835d2a9aa00ef90d0ddc4c6402a2536de0d.png)
+![https://res.cloudinary.com/luizleiteoliveira/image/upload/v1626992397/blog/api-gateway/Captura_de_Tela_2021-07-22_a%CC%80s_19.18.55_rqflhc.png](https://res.cloudinary.com/luizleiteoliveira/image/upload/v1626992397/blog/api-gateway/Captura_de_Tela_2021-07-22_a%CC%80s_19.18.55_rqflhc.png)
 
 Na imagem podemos ver a idéia de como utilizar, ele vai ser o primeiro contato do mundo externo com os serviços que estão dentro da AWS, como *AWS Lambda,* Amazon EC2, *Kinesis...*
 
