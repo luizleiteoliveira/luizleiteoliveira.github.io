@@ -8,7 +8,7 @@ category: ['maven', 'java']
 thumbnail: /assets/img/posts/maven.png
 ---
 
-# O Resumo
+## O Resumo
 
 Maven é uma das ferramentas mais conhecidas e populares para build de aplicação _Java_, além dessa função, também é utilizado como
 gestor de dependências. Dentro dessa parte existe uma _tag_ chamada _scope_ em que é possível definir qual o escopo esta será utilizada.

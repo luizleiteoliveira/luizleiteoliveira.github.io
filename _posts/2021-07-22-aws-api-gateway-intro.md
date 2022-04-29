@@ -8,7 +8,7 @@ category: ['aws']
 thumbnail: /assets/img/posts/aws_logo.png
 ---
 
-# AWS API Gateway Introdução
+## AWS API Gateway Introdução
 
 ## Intro
 
