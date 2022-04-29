@@ -36,7 +36,7 @@ As dependências que vamos usar podem ser encontradas diretamente pelo bootstrap
 
 e em gradle:
 
-```
+```groovy
 io.quarkus:quarkus-rest-client
 io.quarkus:quarkus-resteasy-jsonb
 ```
