@@ -8,7 +8,7 @@ category: [ 'quarkus']
 thumbnail: /assets/img/quarkus_logo.png
 ---
 
-# Como usar Rest Client em Quarkus
+## Como usar Rest Client em Quarkus
 
 Tudo que está nesse projeto pode ser encontrado no repositório [GitHub](https://github.com/luizleite-hotmart/quarkus-graphql).
 
