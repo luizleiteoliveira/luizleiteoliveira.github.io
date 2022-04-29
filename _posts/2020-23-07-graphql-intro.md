@@ -8,7 +8,7 @@ category: [ 'java']
 thumbnail: /assets/img/posts/graph-ql-spec.svg
 ---
 
-# GraphQL na vida real
+## GraphQL na vida real
 
 ## Introdução 
 Primeira mente deixa eu me apresentar. 

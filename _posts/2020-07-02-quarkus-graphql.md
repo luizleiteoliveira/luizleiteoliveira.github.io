@@ -115,7 +115,7 @@ extensão de quarkus para reduzir essa e outras partes que são repetitivas, enq
  ```
 Na parte de `getResourceAsStream()` você coloca o schema de graphql que você desejar, no nosso caso ficou o `META-INF/resources/graphql.schema`
 
-```
+```kotlin
 type Names {
   first: String
   last: String
