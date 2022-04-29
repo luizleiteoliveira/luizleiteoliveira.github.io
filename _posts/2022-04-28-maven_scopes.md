@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Entendendo os escopos ao importar de dependências do Maven"
-summary: Nest post será mostrado quais são e como utilizar corretamente a parte de _SCOPE_ na hora de importar as dependencias do Maven. 
+title: "Entendendo os escopos ao importar as dependências no Maven"
+summary: Nest post será mostrado quais são e como utilizar corretamente a parte de SCOPE na hora de importar as dependencias do Maven. 
 author: luizleite
 date: '2022-04-28 19:00:23 +0530'
 category: ['maven', 'java']
