@@ -31,17 +31,17 @@ Nesse caso `kotlin-stdlib-jdk8` veio de forma direta e `kotlin-stdlib-jdk7` como
 do escopo declarado as dependências transitivas serão afetadas assim como o _classpath_ da aplicação.
 
 
-## \<scope>compile\</scope>
+## compile
 
-## \<scope>runtime\</scope>
+## runtime
 
-## \<scope>provided\</scope>
+## provided
 
-## \<scope>system\</scope>
+## system
 
-## \<scope>test\</scope>
+## test
 
-## \<scope>import\</scope>
+## import
 
 
 
