@@ -6,6 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://luizleiteoliveira.github.io/" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "/" # the subpath of your site, e.g. /blog
 
+# Navigation
 urls:
   - text: About Me
     url: /about
@@ -44,18 +45,7 @@ author_education_details:
         college_url: https://www.dcc.ufmg.br/dcc/
         visibility: true
 
-# Projects
-#author_project_details:
-#              - project_thumbnail: gamershub.png
-#                project_title: Gamers Hub
-#                project_description: A Platform built for Gamers and Game Devs
-#                project_url: https://gamershub.in
-#                visibility: true
-#              - project_thumbnail: hack4r.PNG
-#                project_title: Hack4r
-#                project_description: A Platform built for Hackers and Penetration Testers
-#                project_url: https://hack4r.com
-#                visibility: true
+
 
 # social links
 twitter_username: luizleite_
@@ -75,6 +65,10 @@ linkedin_username: luizleiteoliveira
 
 # formspree (contact form)
 formspree_email: xp.luiz@gmail.com
+
+# releases - widget can be (sidebar, modal or embed)
+olvy_organization: devlopr
+olvy_widget_type: sidebar
 
 # syntax highlighter
 markdown: kramdown
@@ -134,7 +128,17 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-menus
+  - jekyll-admin
+
+# Jekyll Admin Config
+jekyll_admin:
+  # hidden_links:
+  #   - posts
+  #   - pages
+  #   - staticfiles
+  #   - datafiles
+  #   - configuration
+  homepage: "posts"
 
 
 # Exclude from processing.
@@ -144,7 +148,12 @@ plugins:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
+
+### Switching Deployment Strategy (in DEPLOY_STRATEGY) file change the key accordingly:
+# none - For no default
+# gh-pages - For Github Pages
+# firebase - For Firebase Hosting
+
 exclude:
   - .sass-cache/
   - .jekyll-cache/

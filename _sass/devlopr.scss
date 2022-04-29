@@ -110,8 +110,19 @@ ol, ul {
 }
 
 /* Progress bar */
-.my-class .bar {
+.progressline .bar {
     background: #f69801;
+}
+
+/* On scroll progress bar */
+#progress-bar {
+    background: linear-gradient(to right, #f69801 var(--progress), transparent 0);
+    height: 5px;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    margin-top: 25px;
 }
 
 body {
@@ -149,6 +160,10 @@ pre {
     display: block;
     font-size: 87.5%;
     color: #d4d4d4 !important;
+}
+
+.m10{
+    margin:35px;
 }
 
 blockquote {
@@ -214,8 +229,8 @@ header {
 }
 
 #topNav{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
     background-color: var(--main-background-color) !important;
     box-shadow: #000 0px 0px 8px;
 }
@@ -259,7 +274,6 @@ header {
 }
 .card-title {
     margin-bottom: .75rem !important;
-    margin-left: 30px !important;
 }
 
 /* Search Overlay */
@@ -412,7 +426,7 @@ header {
 }
 
 #blog-post-container{
-    margin-top: -20px;
+    margin-top: 20px;
     margin-left: -35px;
 }
 
@@ -490,17 +504,10 @@ header {
     text-transform: none;
 }
 .snipcart-payment-methods__title {
-    background-color: black !important;
+    background-color:  var(--main-background-color) !important;
 }
 
-/* jumbotron */
-.jumbotron {
-    background-color: var(--main-background-color) !important;
-    background-image: url('https://luizleiteoliveira.github.io///assets/img/gallery/IMG_20200518_140551.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-}
+
 /* pagination */
 .pagination-link{
     padding:15px;
@@ -521,14 +528,12 @@ header {
 }
 
 .jumbotron-heading{
-    color: #111;
     font-size: 35px;
 }
 
 .lead {
     font-size: 1.30rem !important;
     font-weight: 600;
-    color: #111 !important;
 }
 
 .fa {
@@ -616,9 +621,9 @@ header {
     padding-left: 50px !important;
 }
 
-#blog-posts-container{
-    margin-left:20px !important;
-}
+// #blog-posts-container{
+//     margin-left:20px !important;
+// }
 
 #article-container{
     display: grid;
@@ -659,17 +664,6 @@ header {
     background: transparent;
 }
 
-
-@media (min-width: 768px) {
-    .offset-md-1 {
-    margin-left: 3.333333% !important;
-    }
-    // #topNav{
-    //     padding-left: 100px;
-    //     padding-right: 100px;
-    //     background-color: var(--nav-color) !important;
-    // }
-}
 
 #profile-card {
     text-align: center;
@@ -794,7 +788,16 @@ footer {
 
 
 
+
 /* Responsive Media Queries */
+
+@media screen and (min-width: 768px) {
+    .main-container{
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+}
 
  /*
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
@@ -1026,8 +1029,8 @@ footer {
                 width: auto;
                 float:left;
             }
-
  }
+
 
  /* Github Follow Button */
 .widget-lg .btn, .widget-lg .social-count {
