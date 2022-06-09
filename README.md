@@ -1,6 +1,6 @@
 ### devlopr-jekyll - A Beautiful Jekyll Theme Built for Developers
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)![workflow-badge](https://github.com/sujaykundu777/devlopr-jekyll/workflows/deploy/badge.svg)
@@ -36,34 +36,96 @@ or if you want to try fast :
 8. Happy Hacking your new site ! For Local changes you can clone locally.
 
 
-### Local Development Steps :
-To work locally, follow this commands. You might need ruby and git installed.
+## Local Development Steps :
 
-```sh
+### Clone Locally:
+
+```s
 $ git clone https://github.com/your_github_username/your_github_username.github.io.git
 $ cd your_github_username
-$ ruby -v
+```
+
+### For Windows :
+
+To work locally with windows machine, follow this commands. You might need to download and install [ruby (with devkit)](https://www.ruby-lang.org/en/downloads/) and [git](https://git-scm.com/downloads).
+
+```s
+$ ruby -v 
+(ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [universal.x86_64-darwin21])
+
 $ gem install jekyll bundler
+
 $ bundler -v
+Bundler version 2.3.15
+
 $ bundle update
-$ bundle exec jekyll -v
+
+$ bundle exec jekyll -v 
+jekyll 4.2.2
+
 $ bundle exec jekyll serve --livereload
 ```
 
 If you are using permission issues, running bundler:
 
-```sh
+```s
 $ sudo rm -rf _site
 $ bundle update
 $ bundle exec jekyll serve
 ```
 Start the server locally at http://127.0.0.1:4000/ or http://localhost:4000/
 
+### For MacOS :
+Run the following in your terminal :
+
+1. Install Homebrew
+
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+2. Install churby and ruby-install with Homebrew
+
+`brew install chruby ruby-install`
+
+3. Install latest ruby version 
+
+`ruby-install ruby`
+
+4. This will take a few minutes, and once it’s done, configure your shell to automatically use chruby:
+
+```sh
+echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc
+echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc
+echo "chruby ruby-3.1.2" >> ~/.zshrc
+```
+If you’re using Bash, replace *.zshrc* with *.bash_profile*.
+
+Quit and relaunch Terminal, then check that everything is working:
+
+`$ ruby -v`
+ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-darwin21]
+
+5. Install latest gems
+
+```s
+$ gem install jekyll bundler
+
+$ bundler -v
+Bundler version 2.3.15
+
+$ bundle update
+
+$ bundle exec jekyll -v 
+jekyll 4.2.2
+
+$ bundle exec jekyll serve --livereload
+```
+
+
 ### Security 
 
 We use codeQL and dependabot alerts for vulnerabality analysis & fixes.
 
-```sh
+```s
 $ bundle audit
 ```
 
@@ -180,6 +242,7 @@ This project exists thanks to all the people who contribute.
     <td align="center"><a href="https://www.dsantini.it"><img src="https://avatars.githubusercontent.com/u/8406735?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daniele Santini</b></sub></a><br /><a href="https://github.com/sujaykundu777/devlopr-jekyll/issues?q=author%3ADanysan1" title="Bug reports">🐛</a></td>
     <td align="center"><a href="http://chivaszx.netlify.app"><img src="https://avatars.githubusercontent.com/u/57280995?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Chivaszx</b></sub></a><br /><a href="https://github.com/sujaykundu777/devlopr-jekyll/commits?author=aekkasit114" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/resynth1943"><img src="https://avatars.githubusercontent.com/u/49915996?v=4?s=100" width="100px;" alt=""/><br /><sub><b>resynth1943</b></sub></a><br /><a href="#infra-resynth1943" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/sujaykundu777/devlopr-jekyll/commits?author=resynth1943" title="Code">💻</a></td>
+    <td align="center"><a href="https://ledmington.github.io"><img src="https://avatars.githubusercontent.com/u/68538713?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Filippo Barbari</b></sub></a><br /><a href="https://github.com/sujaykundu777/devlopr-jekyll/commits?author=Ledmington" title="Code">💻</a></td>
   </tr>
 </table>
 
