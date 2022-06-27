@@ -4,7 +4,7 @@ title: "O que é criptografia"
 summary: Neste post vamos abordar o que é criptografia assim como os conceitos básicos dessa técnica 
 author: luizleite
 date: '2022-06-07 7:00:23 +0500'
-category: ['segurança']
+category: ['segurança', 'criptografia']
 thumbnail: /assets/img/posts/maven.png
 ---
 
@@ -36,6 +36,13 @@ a decriptografia. Exemplos de criptografia assimétrica são:
  - Elliptic Curve Digital Signature Algorithm (Usada pela blockchain)
  - Digital Signature Algorithm (DSA)
 
+## Um pouco de história
+
+Uma das primeiras vezes observada o uso de criptografia foi com a Criptografia de César, imperador romano, que em 100 A.C
+enviava mensagens com teor militar com as letras trocadas por a de três posições para direita, ou seja, nesse caso a operação matemática seria 
+somar o valor da letra mais 3 para achar a letra correta, sendo assim, A era trocada por um D, B por um E ....
+
+Vale lembrar que essa criptografia pode ser facilmente quebrada, por isso não representa muita segurança nos dias atuais. 
 
 ## _Quer me acompanhar?_
  
