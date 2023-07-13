@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Como GraalVM e compilação AOT geram imagens menores"
+title: "Porque GraalVM e compilação AOT geram imagens menores"
 summary: Como GraalVM e compilação AOT geram imagens menores
 author: luizleite
 date: '2023-07-13 7:00:23 +0500'
