@@ -3,7 +3,7 @@ layout: post
 title: "Como criar uma action no github como scheduled"
 summary: Nesse post vamos mostrar como é fácil criar uma action no github que roda 
 author: luizleite
-date: '2024-01-22 7:00:23 +0500'
+date: '2024-01-21 7:00:23 +0500'
 category: [ 'github', 'github-actions' ]
 thumbnail: 
 ---
