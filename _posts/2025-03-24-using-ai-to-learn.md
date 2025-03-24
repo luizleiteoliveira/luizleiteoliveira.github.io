@@ -18,7 +18,7 @@ você pode utilizá-la para otimizar seu trabalho.
 
 ## IA: A Engrenagem por Trás da Organização e Entendimento de Projetos
 
-No meu dia a dia, a IA já é uma realidade. Utilizamos ferramentas como o GitHub Copilot para a geração de testes,
+No meu dia a dia, a IA já é uma realidade. Utilizamos ferramentas de Copilot para a geração de testes,
 acelerando o processo e garantindo a qualidade do código. Além disso, contamos com um revisor de código inteligente que
 avalia os pull requests, identificando potenciais problemas e sugerindo melhorias. Para completar, um agente de IA
 integrado ao nosso chat nos fornece contexto adicional sobre os projetos, facilitando a compreensão e a colaboração
