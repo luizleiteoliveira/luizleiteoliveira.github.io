@@ -13,3 +13,5 @@ _site/
 .bundle/
 vendor/
 /.idea/
+
+.qodo
