@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "D E S C O M P L I C A N D O   O   C Ó D I G O  C O M O   A   I A   P O D E    S E R    S U A    A L I A D A"
+title: "Descomplicado o código como a IA pode ser sua aliada"
 summary: Neste artigo, vamos comentar sobre como usar a inteligência artificial para aprender e se adaptar a diferentes situações. Vamos explorar como a IA pode ser usada para criar modelos de aprendizado, como redes neurais, e como ela pode ser usada para criar algoritmos de aprendizado automático
 author: luizleite
 date: '2025-03-22 7:00:23 +0500'
