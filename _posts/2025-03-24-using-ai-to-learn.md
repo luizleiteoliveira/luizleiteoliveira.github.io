@@ -80,8 +80,32 @@ de documentações completas e consistentes, garantindo que todos os aspectos do
 Com a IA, a documentação deixa de ser uma tarefa árdua e se torna um processo fluido e eficiente, garantindo que o
 conhecimento sobre o projeto esteja sempre acessível e bem organizado.
 
+## IA na Otimização de Código e Desempenho
 
+A inteligência artificial está se tornando uma ferramenta essencial na otimização de código e no ajuste de desempenho.
+Com a capacidade de analisar grandes volumes de dados e identificar padrões, a IA pode ajudar a detectar gargalos de
+desempenho e sugerir melhorias. Ferramentas de IA podem:
 
+- **Analisar Código para Otimização:** Identificar partes do código que podem ser otimizadas para melhorar a eficiência
+  e reduzir o tempo de execução.
+- **Prever Impacto de Mudanças:** Avaliar como alterações no código podem afetar o desempenho geral do sistema,
+  permitindo ajustes antes da implementação.
+- **Gerenciar Recursos:** Sugerir alocações de recursos mais eficientes, como memória e CPU, para garantir que as
+  aplicações rodem de forma otimizada.
+
+## Cenários Onde a Utilização de IA Pode Não Ser Ideal
+
+Embora a IA ofereça muitos benefícios, existem situações em que seu uso pode não ser apropriado ou eficaz. Alguns desses
+cenários incluem:
+
+- **Decisões Criativas:** A IA pode não ser a melhor escolha para tarefas que exigem criatividade e inovação, como
+  design de produto ou criação de conteúdo original, onde a intuição humana é essencial.
+- **Contextos Éticos e Sensíveis:** Em situações que envolvem decisões éticas ou sensíveis, a IA pode não ter a
+  capacidade de compreender nuances culturais ou emocionais, levando a resultados indesejados.
+- **Ambientes com Dados Limitados:** A eficácia da IA depende de grandes volumes de dados para treinamento. Em ambientes
+  onde os dados são escassos ou de baixa qualidade, a IA pode não oferecer resultados precisos ou úteis.
+- **Dependência Excessiva:** Confiar demais na IA pode levar a uma perda de habilidades humanas críticas, como resolução
+  de problemas e pensamento crítico, além de criar uma dependência que pode ser prejudicial se a tecnologia falhar.
 
 ## _Quer me acompanhar?_
 
