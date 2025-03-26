@@ -13,7 +13,7 @@ thumbnail:
 Olá, sou Luiz Leite, Principal Engineer na Hotmart. Com mais de 8 squads sob minha responsabilidade e gerenciando mais
 de 500 repositórios, posso afirmar que a organização e a eficiência são pilares fundamentais para o sucesso em projetos
 complexos. É nesse cenário que a inteligência artificial (IA) se revela não apenas como uma ferramenta, mas como uma
-aliada indispens Neste artigo, vamos mergulhar em como a IA está transformando o desenvolvimento de software, e como
+aliada indispensável. Neste artigo, vamos mergulhar em como a IA está transformando o desenvolvimento de software, e como
 você pode utilizá-la para otimizar seu trabalho.
 
 ## IA: A Engrenagem por Trás da Organização e Entendimento de Projetos
