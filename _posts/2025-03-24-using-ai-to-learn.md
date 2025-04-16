@@ -107,6 +107,23 @@ cenários incluem:
 - **Dependência Excessiva:** Confiar demais na IA pode levar a uma perda de habilidades humanas críticas, como resolução
   de problemas e pensamento crítico, além de criar uma dependência que pode ser prejudicial se a tecnologia falhar.
 
+## Exemplos de Prompt
+
+## Comparativo de Prompts Técnicos – Ruins vs. Melhorados
+
+| #  | Prompt Ruim (realista, mas incompleto) | Por que é insuficiente | Prompt Melhorado (claro e eficaz) |
+|----|----------------------------------------|-------------------------|-----------------------------------|
+| 1  | **Crie um site simples em HTML.** | Vago: não informa propósito, estrutura ou estilo. | **Crie um site em HTML e CSS com uma página inicial que contenha um cabeçalho, parágrafo sobre uma empresa fictícia de tecnologia e um rodapé com redes sociais. O layout deve ser responsivo.** |
+| 2  | **Crie alguns testes unitários para essa função:**<br>```python<br>def soma_lista(lista):<br>    return sum(lista)<br>``` | Não define quais casos testar, nem qual framework usar. | **Crie testes unitários com `unittest` para a função `soma_lista(lista)`. Teste uma lista vazia, com negativos, e uma lista com um único valor.** |
+| 3  | **Escreva uma query SQL para listar produtos da tabela produto.** | Não especifica colunas, filtros ou ordenação. | **Escreva uma query que retorne `id`, `nome`, `ucode` e `descricao` da tabela `produto`, apenas para produtos ativos (`ativo = true`), ordenados por `nome`.** |
+| 4  | **Esse código está com erro, vê se arruma:**<br>```python<br>def fatorial(n):<br>    return n * fatorial(n)<br>``` | Falta indicar o objetivo e o erro esperado (loop infinito). | **Esse código deveria calcular o fatorial de um número, mas entra em recursão infinita. Pode corrigir e explicar o erro?** |
+| 5  | **Crie uma query que conte dados da tabela de pedidos.** | Ambíguo: o que contar? Agrupado por quê? | **Crie uma query SQL que retorne o total de pedidos feitos por cada `cliente_id`, agrupando pela coluna `cliente_id`, ordenado do maior para o menor.** |
+| 6  | **Melhore esse código para ficar mais eficiente:**<br>```python<br>def primos(n):<br>    primos = []<br>    for i in range(2, n):<br>        for j in range(2, i):<br>            if i % j == 0:<br>                break<br>        else:<br>            primos.append(i)<br>    return primos<br>``` | Faltam informações: o que significa "melhorar"? O código está certo, mas lento. | **Esse código em Python gera números primos até `n`, mas é lento para valores altos como `n > 10000`. Pode otimizá-lo usando o Crivo de Eratóstenes?** |
+| 7  | **Crie um sistema de login em Python.** | Não diz se é web, CLI, se usa banco, nem como validar usuários. | **Crie um sistema de login simples usando Flask. Ele deve ter rotas para cadastro e login, salvar usuários num dicionário em memória e retornar mensagens de sucesso/erro em JSON.** |
+| 8  | **Gera um gráfico com os dados abaixo.**<br>```python<br>dados = {'Produto A': 150, 'Produto B': 90, 'Produto C': 120}<br>``` | Falta dizer tipo de gráfico, biblioteca desejada, ou o que comparar. | **Gere um gráfico de barras usando Matplotlib com os dados acima, onde o eixo X representa os produtos e o eixo Y representa a quantidade vendida.** |
+| 9  | **Crie uma função que retorna se um número é primo.** | Simples, mas faltam requisitos: e números negativos? Zero? | **Crie uma função em Python que verifica se um número é primo. Ela deve tratar casos negativos, zero e 1 retornando `False`.** |
+| 10 | **Gere uma API em Flask.** | Não diz o que a API deve fazer, quais rotas ou estrutura esperada. | **Crie uma API REST usando Flask com duas rotas: `/soma` e `/subtrai`, ambas recebendo dois números via JSON e retornando o resultado da operação.** |
+
 ## _Quer me acompanhar?_
 
 _Aqui estão algumas das minhas redes sociais._
