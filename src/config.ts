@@ -7,8 +7,8 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "Fuwari",
-	subtitle: "Demo Site",
+	title: "Luiz Leite Oliveira",
+	subtitle: "Blog de aprendizados",
 	lang: "en", // 'en', 'zh_CN', 'zh_TW', 'ja', 'ko', 'es', 'th'
 	themeColor: {
 		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -45,7 +45,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.About,
 		{
 			name: "GitHub",
-			url: "https://github.com/saicaca/fuwari", // Internal links should not include the base path, as it is automatically added
+			url: "https://github.com/luizleiteoliveira", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
@@ -57,9 +57,14 @@ export const profileConfig: ProfileConfig = {
 	bio: "Um dev que aprende escrevendo",
 	links: [
 		{
-			name: "GitHub",
+			name: "Github",
 			icon: "fa6-brands:github",
 			url: "https://github.com/luizleiteoliveira",
+		},
+		{
+			name: "GitHub",
+			icon: "fa6-brands:linkedin-in",
+			url: "https://www.linkedin.com/in/luizleiteoliveira/",
 		},
 	],
 };
