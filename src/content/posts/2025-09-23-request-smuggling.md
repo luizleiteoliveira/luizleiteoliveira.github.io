@@ -2,8 +2,7 @@
 title: HTTP Request Smuggling - Uma Vulnerabilidade Crítica em Aplicações Web
 published: 2025-09-23
 description: Entenda como funciona o HTTP Request Smuggling, uma das vulnerabilidades mais perigosas em aplicações web modernas.
-image: ./request-smuggling-cover.jpg
-tags: [Security, HTTP, Web Security, Vulnerabilities]
+tags: [Security, HTTP, Web Security,
 category: Security
 draft: false
 ---

@@ -1,5 +1,5 @@
 ---
-title: 2025-05-25-greencode
+title: Greencode
 published: 2025-05-27
 description: 'T'
 tags: [ grencode ]
